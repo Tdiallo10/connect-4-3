@@ -1,0 +1,64 @@
+body {
+    font-family: cursive;
+    text-align: center;
+    font-size: larger;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+#win-count-red,
+#win-count-yellow {
+    font-weight: bold;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: blue;
+    border: 10px solid navy;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+.red-disc {
+    background-color: red;
+}
+
+.yellow-disc {
+    background-color: yellow;
+}
+
+#restButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restButton:hover {
+    background-color: #45a049;
+}
